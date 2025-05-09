@@ -61,7 +61,8 @@
     display: flex;
     padding-top: 15px;
     gap: 85px;
-    font-size:large;
+    font-size:larger;
+    margin-left: 20px;
    
     
 }
