@@ -2,8 +2,12 @@
     list-style: none;
     text-decoration:none;
     margin: 0;
+    padding: 0;
     font-family: "Comic Relief", system-ui;
+    box-sizing: border-box;
+    
 }
+
 .navbar{
     position: sticky;
     top: 0;
@@ -15,12 +19,14 @@
     align-items: center;
     background-color:white;
     height: 65px;
+    width: 100%;
     
 
 }
 .navbar .top_navbar a img{
-    width: 150px;
-    margin-left: 120px;
+   width: 150px;
+   height: fit-content;
+
 
 }
  .navbar  .top_navbar .left_list{
@@ -62,7 +68,7 @@
     padding-top: 15px;
     gap: 85px;
     font-size:larger;
-    margin-left: 20px;
+    margin-left: 70px;
    
     
 }
@@ -77,6 +83,7 @@
 }
 .first_page  img{
 height: 550px;
+
 }
 .divsec2-1 img{
     width: 500px;
@@ -170,7 +177,7 @@ margin-bottom: 20px;
 
 .top_testimonial
 {
-    text-align: cenr;
+    text-align: center;
     background-color: rgba(14, 240, 180, 0.067);
     height: 60px;
     word-spacing: 5px;
@@ -203,7 +210,6 @@ margin-bottom: 20px;
     height: 150px;
     border-radius: 50%;
     border: 10px solid rgba(138, 224, 224, 0.573);
-    z-index: 99;
     margin-bottom: 20px;
     box-shadow: rgba(135, 116, 116, 0.1) 4px 4px 10px;
 
@@ -486,7 +492,7 @@ flex-direction: column;
       
 }
  @media screen and (min-width:601px) and (max-width:1024px){
-    body{
+
        /* navbar section start */
         .navbar{
             width: auto;
@@ -497,9 +503,7 @@ flex-direction: column;
         .navbar div label{
             display: block;
         }
-        .navbar .top_navbar{
         
-        }
         #click:checked~ .left_list{
             display: block;
             
@@ -602,4 +606,6 @@ flex-direction: column;
 
     }
 
-}
+
+
+    
